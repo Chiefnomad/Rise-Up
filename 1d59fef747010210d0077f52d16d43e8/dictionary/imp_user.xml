@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5d0e0028d9b13110cedf7dffddb48ffa" extends="sys_import_set_row" label="User" max_length="40" name="imp_user" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Student" label="Student" max_length="40" name="u_student" type="string"/>
+        <element attributes="import_attribute_name=Student ID" label="Student ID" max_length="40" name="u_student_id" type="integer"/>
+    </element>
+</database>

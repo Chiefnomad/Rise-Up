@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="495d7a3f47010210d0077f52d16d43c2" label="Attendance Details" max_length="40" name="x_1359929_edutrack_attendance_details" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Abbreviation" max_length="40" name="abbreviation" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

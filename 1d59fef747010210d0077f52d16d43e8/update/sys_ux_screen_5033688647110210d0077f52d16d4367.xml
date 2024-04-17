@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Service Operations Workspace">4d69d0ed73c4301045216238edf6a7ea</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings>[
+    {
+        "eventMappingId": "clbbmhymqhaaccdiddehhddhhqneecuhhh",
+        "isConfiguration": false,
+        "offRowStorageId": null,
+        "sourceEventApiName": "sn_sow_inc.HIDE_WELCOME_CARD",
+        "sourceEventCorrelationId": null,
+        "sourceEventDefinition": {
+            "apiName": "sn_sow_inc.HIDE_WELCOME_CARD",
+            "id": null,
+            "type": "UXEVENT"
+        },
+        "sourceEventSysId": null,
+        "targets": [
+            {
+                "broker": null,
+                "clientScript": null,
+                "conditional": null,
+                "declarativeAction": null,
+                "event": {
+                    "apiName": "sn_sow_inc.HIDE_WELCOME_CARD",
+                    "payload": {
+                        "type": "JSON_LITERAL",
+                        "value": {}
+                    },
+                    "sysId": "753c1323772601100bfdaeb4bb5a9998"
+                },
+                "operation": null,
+                "targetId": "clbbmhymqhaaccdjddehhddlmmnxtaaee",
+                "type": "EVENT"
+            }
+        ]
+    }
+]</event_mappings>
+        <macroponent display_value="Welcome SOW SNC">4033288647110210d0077f52d16d4311</macroponent>
+        <macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "TRANSLATION_LITERAL",
+        "value": {
+            "code": null,
+            "comment": "",
+            "message": ""
+        }
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    }
+}</macroponent_config>
+        <name>Welcome SOW SNC</name>
+        <order>100</order>
+        <parent_macroponent display_value="Service desk landing page Edutrack copy">c5236c0647110210d0077f52d16d437a</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Welcome SOW">9033688647110210d0077f52d16d4361</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-04-02 15:27:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5033688647110210d0077f52d16d4367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Welcome SOW SNC</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_update_name>sys_ux_screen_5033688647110210d0077f52d16d4367</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-02 15:27:46</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=5033688647110210d0077f52d16d4367"/>
+</record_update>

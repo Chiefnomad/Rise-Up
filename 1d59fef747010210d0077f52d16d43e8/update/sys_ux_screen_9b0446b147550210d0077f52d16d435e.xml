@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Edutrack Workspace App Config">010482b194550210b28f2b2bf7721e0a</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings>[
+    
+]</event_mappings>
+        <macroponent display_value="Student Schedules Record Page">1b0446b147550210d0077f52d16d4328</macroponent>
+        <macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "TRANSLATION_LITERAL",
+        "value": {
+            "code": null,
+            "comment": "",
+            "message": ""
+        }
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    }
+}</macroponent_config>
+        <name>Student Schedules Record Page</name>
+        <order>100</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition>table=x_1359929_edutrack_student_schedules</screen_condition>
+        <screen_type display_value="Record">450442b1ce5502100b1f61110e98baff</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>agb</sys_created_by>
+        <sys_created_on>2024-04-02 03:52:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9b0446b147550210d0077f52d16d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Student Schedules Record Page</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_update_name>sys_ux_screen_9b0446b147550210d0077f52d16d435e</sys_update_name>
+        <sys_updated_by>agb</sys_updated_by>
+        <sys_updated_on>2024-04-02 03:52:29</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=9b0446b147550210d0077f52d16d435e"/>
+</record_update>

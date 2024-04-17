@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Public">3118d528ef5d421064dd6a8039c84c11</applicability>
+        <order>0</order>
+        <screen display_value="Login Default">7118d528455d421012398d8879d49808</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-03-29 03:28:02</sys_created_on>
+        <sys_id>f518d528e65d421065015a679f5c0008</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_f518d528e65d421065015a679f5c0008</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:28:02</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

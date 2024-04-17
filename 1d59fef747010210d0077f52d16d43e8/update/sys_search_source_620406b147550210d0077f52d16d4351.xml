@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1359929_edutrack_teacher_schedules">active=true</condition>
+        <group/>
+        <name>Edutrack Workspace - x_1359929_edutrack_teacher_sc</name>
+        <roles/>
+        <source_table>x_1359929_edutrack_teacher_schedules</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>agb</sys_created_by>
+        <sys_created_on>2024-04-02 03:52:26</sys_created_on>
+        <sys_id>620406b147550210d0077f52d16d4351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edutrack Workspace - x_1359929_edutrack_teacher_sc</sys_name>
+        <sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_update_name>sys_search_source_620406b147550210d0077f52d16d4351</sys_update_name>
+        <sys_updated_by>agb</sys_updated_by>
+        <sys_updated_on>2024-04-02 03:52:26</sys_updated_on>
+    </sys_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=620406b147550210d0077f52d16d4351"/>
+</record_update>

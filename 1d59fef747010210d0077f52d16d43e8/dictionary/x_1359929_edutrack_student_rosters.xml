@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="028bffc047550210d0077f52d16d4315" extends="sys_import_set_row" label="Student Rosters" max_length="40" name="x_1359929_edutrack_student_rosters" type="collection">
+        <element attributes="import_attribute_name=Grade" label="Grade" max_length="40" name="u_grade" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Student" label="Student" max_length="40" name="u_student" type="string"/>
+        <element attributes="import_attribute_name=Student ID" label="Student ID" max_length="40" name="u_student_id" type="integer"/>
+    </element>
+</database>

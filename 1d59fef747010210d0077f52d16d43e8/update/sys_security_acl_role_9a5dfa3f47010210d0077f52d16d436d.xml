@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>rene</sys_created_by>
+        <sys_created_on>2024-03-27 02:54:58</sys_created_on>
+        <sys_id>9a5dfa3f47010210d0077f52d16d436d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1359929_edutrack_attendance_details.x_1359929_edutrack.school admin</sys_name>
+        <sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_security_acl display_value="x_1359929_edutrack_attendance_details">125dfa3f47010210d0077f52d16d4314</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_9a5dfa3f47010210d0077f52d16d436d</sys_update_name>
+        <sys_updated_by>rene</sys_updated_by>
+        <sys_updated_on>2024-03-27 02:54:58</sys_updated_on>
+        <sys_user_role display_value="x_1359929_edutrack.school admin" name="x_1359929_edutrack.school admin">e559323b47010210d0077f52d16d431e</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="aeedf9c1f0d10610c3f1fc62e2c9c295" sys_domain="global" table="sys_user" version="3" view="4_custom_portal_settings_x_1359929_edutrack">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_zone</element>
+            <position>0</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2024-03-30 19:30:18</sys_created_on>
+            <sys_id>26edf9c144d10610654e6a500dbb1896</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="62edf9c140d1061051ba67e82711a396">aeedf9c1f0d10610c3f1fc62e2c9c295</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2024-03-30 19:30:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2024-03-30 19:30:18</sys_created_on>
+            <sys_id>e6edf9c1acd1061022f92d8e6ea2ef96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="62edf9c140d1061051ba67e82711a396">aeedf9c1f0d10610c3f1fc62e2c9c295</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2024-03-30 19:30:18</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>preferred_language</element>
+            <position>2</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2024-03-30 19:30:18</sys_created_on>
+            <sys_id>6eedf9c138d1061019047b08ff30f894</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="62edf9c140d1061051ba67e82711a396">aeedf9c1f0d10610c3f1fc62e2c9c295</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2024-03-30 19:30:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sys_user</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2024-03-30 19:30:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aeedf9c1f0d10610c3f1fc62e2c9c295</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_user</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+            <sys_update_name>sys_ui_section_aeedf9c1f0d10610c3f1fc62e2c9c295</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2024-03-30 19:30:18</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="4_custom_portal_settings_x_1359929_edutrack" name="4_custom_portal_settings_x_1359929_edutrack">62edf9c140d1061051ba67e82711a396</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

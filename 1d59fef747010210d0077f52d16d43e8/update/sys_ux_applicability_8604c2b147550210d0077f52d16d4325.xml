@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_1359929_edutrack.Audience for app edutrack-workspace</api_name>
+        <description/>
+        <name>Audience for app edutrack-workspace</name>
+        <role_names/>
+        <roles>a159323b47010210d0077f52d16d4321,e559323b47010210d0077f52d16d431e,d559323b47010210d0077f52d16d4316,2d59323b47010210d0077f52d16d431b</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>agb</sys_created_by>
+        <sys_created_on>2024-04-02 03:52:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8604c2b147550210d0077f52d16d4325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app edutrack-workspace</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_update_name>sys_ux_applicability_8604c2b147550210d0077f52d16d4325</sys_update_name>
+        <sys_updated_by>agb</sys_updated_by>
+        <sys_updated_on>2024-04-02 03:52:24</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

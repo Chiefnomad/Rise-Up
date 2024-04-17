@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>global_search_configurations</name>
+        <page display_value="">d1dcb86447d94210d0077f52d16d437a</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-03-29 01:28:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>d1dcb864ffd94210562ac51e48f5c2b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global_search_configurations</sys_name>
+        <sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_update_name>sys_ux_page_property_d1dcb864ffd94210562ac51e48f5c2b8</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-03-29 01:28:57</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1359929_edutrack.d1dcb86447d94210d0077f52d16d437a.root.global_search_configurations</unique_name>
+        <value>{&#13;
+  "globalSearchContextConfigId": "00731b9d5b231010d9a5ce1a8581c7dd"&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</application>
+        <file_path/>
+        <instance_id>7dab5df01b7635901024eb9b2d4bcbe8</instance_id>
+        <instance_name>dev226006</instance_name>
+        <name>sys_ux_page_property_d1dcb864ffd94210562ac51e48f5c2b8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>global_search_configurations</name><page display_value="">d1dcb86447d94210d0077f52d16d437a</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2024-03-29 01:28:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>d1dcb864ffd94210562ac51e48f5c2b8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>global_search_configurations</sys_name><sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package><sys_policy/><sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope><sys_update_name>sys_ux_page_property_d1dcb864ffd94210562ac51e48f5c2b8</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-03-29 01:28:57</sys_updated_on><type>json</type><unique_name>x_1359929_edutrack.d1dcb86447d94210d0077f52d16d437a.root.global_search_configurations</unique_name><value>{&#13;
+  "globalSearchContextConfigId": "00731b9d5b231010d9a5ce1a8581c7dd"&#13;
+}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-1033448162</payload_hash>
+        <record_name>global_search_configurations</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>agb</sys_created_by>
+        <sys_created_on>2024-04-02 21:36:37</sys_created_on>
+        <sys_id>5397750647950210d0077f52d16d43b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ea0be1af40000001</sys_recorded_at>
+        <sys_updated_by>agb</sys_updated_by>
+        <sys_updated_on>2024-04-02 21:36:37</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>139775060b9502100f53af9b4c7bafb4</update_guid>
+        <update_guid_history>139775060b9502100f53af9b4c7bafb4:-1033448162</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>agb</sys_created_by>
+        <sys_created_on>2024-04-02 21:36:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>02d87f07bd884fd881d7d6b1156c5040</sys_id>
+        <sys_metadata>d1dcb864ffd94210562ac51e48f5c2b8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global_search_configurations</sys_name>
+        <sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_scope_delete display_value="">4f84f83a9ab9479e9d78128ac347fec4</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_d1dcb864ffd94210562ac51e48f5c2b8</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_d1dcb864ffd94210562ac51e48f5c2b8">5397750647950210d0077f52d16d43b4</sys_update_version>
+        <sys_updated_by>agb</sys_updated_by>
+        <sys_updated_on>2024-04-02 21:36:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

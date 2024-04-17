@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="DELETE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description>This is a custom portal experience.</description>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>landing</landing_path>
+        <name>Custom Portal App Config</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-03-29 01:28:58</sys_created_on>
+        <sys_id>d5dcb86447d94210d0077f52d16d437a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom Portal App Config</sys_name>
+        <sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_update_name>sys_ux_app_config_d5dcb86447d94210d0077f52d16d437a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-03-29 01:28:58</sys_updated_on>
+    </sys_ux_app_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</application>
+        <file_path/>
+        <instance_id>7dab5df01b7635901024eb9b2d4bcbe8</instance_id>
+        <instance_name>dev226006</instance_name>
+        <name>sys_ux_app_config_d5dcb86447d94210d0077f52d16d437a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config"><sys_ux_app_config action="INSERT_OR_UPDATE"><active>true</active><custom_icon/><default_route_type/><description>This is a custom portal experience.</description><disable_auto_reflow>false</disable_auto_reflow><encode_query_string>false</encode_query_string><icon/><landing_path>landing</landing_path><name>Custom Portal App Config</name><prefetch_limits/><sys_class_name>sys_ux_app_config</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2024-03-29 01:28:58</sys_created_on><sys_id>d5dcb86447d94210d0077f52d16d437a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Custom Portal App Config</sys_name><sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package><sys_policy/><sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope><sys_update_name>sys_ux_app_config_d5dcb86447d94210d0077f52d16d437a</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-03-29 01:28:58</sys_updated_on></sys_ux_app_config></record_update>]]></payload>
+        <payload_hash>-339762777</payload_hash>
+        <record_name>Custom Portal App Config</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>agb</sys_created_by>
+        <sys_created_on>2024-04-02 21:36:37</sys_created_on>
+        <sys_id>db97750647950210d0077f52d16d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ea0be1bb70000001</sys_recorded_at>
+        <sys_updated_by>agb</sys_updated_by>
+        <sys_updated_on>2024-04-02 21:36:37</sys_updated_on>
+        <type>UX App Configuration</type>
+        <update_guid>9b9775060f95021074dd52472824a8d3</update_guid>
+        <update_guid_history>9b9775060f95021074dd52472824a8d3:-339762777</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>agb</sys_created_by>
+        <sys_created_on>2024-04-02 21:36:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_config">sys_ux_app_config</sys_db_object>
+        <sys_id>125185e3325140b684fc67cab41db0e4</sys_id>
+        <sys_metadata>d5dcb86447d94210d0077f52d16d437a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom Portal App Config</sys_name>
+        <sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_scope_delete display_value="">4f84f83a9ab9479e9d78128ac347fec4</sys_scope_delete>
+        <sys_update_name>sys_ux_app_config_d5dcb86447d94210d0077f52d16d437a</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_config_d5dcb86447d94210d0077f52d16d437a">db97750647950210d0077f52d16d43d3</sys_update_version>
+        <sys_updated_by>agb</sys_updated_by>
+        <sys_updated_on>2024-04-02 21:36:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,1448 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1532000,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>EduTrack Catalog flow for purchases</description>
+        <internal_name>edutrack_catalog_flow</internal_name>
+        <label_cache>[{"name":"Service Catalog_1.request_item.request","label":"Trigger - Service Catalog➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request"},{"name":"Service Catalog_1.request_item.requested_for.email","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}}]</label_cache>
+        <master_snapshot>72929960475d4210d0077f52d16d4322</master_snapshot>
+        <name>EduTrack Catalog flow</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>0b929960475d4210d0077f52d16d43d9</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 02:38:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5ccc0d28471d4210d0077f52d16d433d</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>EduTrack Catalog flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_update_name>sys_hub_flow_5ccc0d28471d4210d0077f52d16d433d</sys_update_name>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:04</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=5ccc0d28471d4210d0077f52d16d433d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5ccc0d28471d4210d0077f52d16d433d"/>
+    <sys_flow_catalog_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <catalog_item/>
+        <name/>
+        <run_flow_in>background</run_flow_in>
+        <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0b929960475d4210d0077f52d16d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:04</sys_updated_on>
+    </sys_flow_catalog_trigger>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=5ccc0d28471d4210d0077f52d16d433d"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=5ccc0d28471d4210d0077f52d16d433d^sys_idNOT INc8bd85e8471d4210d0077f52d16d43cd"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="EduTrack Catalog flow">5ccc0d28471d4210d0077f52d16d433d</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 02:42:33</sys_created_on>
+        <sys_id>c8bd85e8471d4210d0077f52d16d43cd</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:04</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c8bd85e8471d4210d0077f52d16d43cd"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=5ccc0d28471d4210d0077f52d16d433d"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=5ccc0d28471d4210d0077f52d16d433d^sys_idNOT IN9ccccd68471d4210d0077f52d16d4389"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>5ccc0d28471d4210d0077f52d16d433d</id>
+        <name>EduTrack Catalog flow</name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 02:38:29</sys_created_on>
+        <sys_id>9ccccd68471d4210d0077f52d16d4389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 02:38:29</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=9ccccd68471d4210d0077f52d16d4389"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=5ccc0d28471d4210d0077f52d16d433d^sys_idNOT IN00bd85e8471d4210d0077f52d16d43c7,88bd85e8471d4210d0077f52d16d43c2"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="EduTrack Catalog flow">5ccc0d28471d4210d0077f52d16d433d</model>
+        <model_id>5ccc0d28471d4210d0077f52d16d433d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_5ccc0d28471d4210d0077f52d16d433d</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 02:42:33</sys_created_on>
+        <sys_id>00bd85e8471d4210d0077f52d16d43c7</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=00bd85e8471d4210d0077f52d16d43c7"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="EduTrack Catalog flow">5ccc0d28471d4210d0077f52d16d433d</model>
+        <model_id>5ccc0d28471d4210d0077f52d16d433d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_5ccc0d28471d4210d0077f52d16d433d</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 02:42:33</sys_created_on>
+        <sys_id>88bd85e8471d4210d0077f52d16d43c2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=88bd85e8471d4210d0077f52d16d43c2"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=5ccc0d28471d4210d0077f52d16d433d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5ccc0d28471d4210d0077f52d16d433d"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=5ccc0d28471d4210d0077f52d16d433d^sys_idNOT IN48bd85e8471d4210d0077f52d16d43d3,5dee016c471d4210d0077f52d16d4354,74c11920475d4210d0077f52d16d4341,7e72d560475d4210d0077f52d16d432e,a7315dec471d4210d0077f52d16d4332"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="EduTrack Catalog flow">5ccc0d28471d4210d0077f52d16d433d</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 02:42:33</sys_created_on>
+        <sys_id>48bd85e8471d4210d0077f52d16d43d3</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-01 01:27:25</sys_updated_on>
+        <ui_id>1f67bb54-1501-4d51-9a17-18cfcebc08f5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=48bd85e8471d4210d0077f52d16d43d3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>48bd85e8471d4210d0077f52d16d43d3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 02:42:34</sys_created_on>
+        <sys_id>c4bd85e8471d4210d0077f52d16d43d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 02:42:34</sys_updated_on>
+        <value>state=-5</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>48bd85e8471d4210d0077f52d16d43d3</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 02:42:34</sys_created_on>
+        <sys_id>ccbd85e8471d4210d0077f52d16d43d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 02:42:34</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=48bd85e8471d4210d0077f52d16d43d3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>48bd85e8471d4210d0077f52d16d43d3</id>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 02:42:34</sys_created_on>
+        <sys_id>44bd85e8471d4210d0077f52d16d43d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 02:42:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>48bd85e8471d4210d0077f52d16d43d3</id>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 02:42:34</sys_created_on>
+        <sys_id>88bd85e8471d4210d0077f52d16d43d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 02:42:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>48bd85e8471d4210d0077f52d16d43d3</id>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 02:42:34</sys_created_on>
+        <sys_id>80bd85e8471d4210d0077f52d16d43d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 02:42:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=48bd85e8471d4210d0077f52d16d43d3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=48bd85e8471d4210d0077f52d16d43d3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="EduTrack Catalog flow">5ccc0d28471d4210d0077f52d16d433d</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 02:47:49</sys_created_on>
+        <sys_id>5dee016c471d4210d0077f52d16d4354</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-01 01:27:25</sys_updated_on>
+        <ui_id>067d4657-fb20-4609-8318-bc907e1c6a0a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5dee016c471d4210d0077f52d16d4354"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5dee016c471d4210d0077f52d16d4354</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 02:47:49</sys_created_on>
+        <sys_id>59ee016c471d4210d0077f52d16d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 02:47:49</sys_updated_on>
+        <value>assignment_group={"display":"Edutrack Admin Group","value":"005185e847d94210d0077f52d16d433b","sys_id":"005185e847d94210d0077f52d16d433b"}^state=1</value>
+        <variable display_value="Fields">7751fd0e73141300612c273ffff6a7ac</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5dee016c471d4210d0077f52d16d4354"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_fields</field>
+        <id>5dee016c471d4210d0077f52d16d4354</id>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 02:47:49</sys_created_on>
+        <sys_id>d5ee016c471d4210d0077f52d16d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 02:47:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_requested_item</field>
+        <id>5dee016c471d4210d0077f52d16d4354</id>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 02:47:49</sys_created_on>
+        <sys_id>11ee016c471d4210d0077f52d16d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 02:47:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5dee016c471d4210d0077f52d16d4354"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5dee016c471d4210d0077f52d16d4354"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="EduTrack Catalog flow">5ccc0d28471d4210d0077f52d16d433d</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:00:21</sys_created_on>
+        <sys_id>74c11920475d4210d0077f52d16d4341</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-01 01:27:25</sys_updated_on>
+        <ui_id>ecb99995-c747-4f2f-817d-bbc1584837a7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=74c11920475d4210d0077f52d16d4341"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>74c11920475d4210d0077f52d16d4341</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:00:21</sys_created_on>
+        <sys_id>70c11920475d4210d0077f52d16d4344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:00:21</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>74c11920475d4210d0077f52d16d4341</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:00:21</sys_created_on>
+        <sys_id>b8c11920475d4210d0077f52d16d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:00:21</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=74c11920475d4210d0077f52d16d4341"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>74c11920475d4210d0077f52d16d4341</id>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:00:21</sys_created_on>
+        <sys_id>38c11920475d4210d0077f52d16d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:00:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>74c11920475d4210d0077f52d16d4341</id>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:00:21</sys_created_on>
+        <sys_id>bcc11920475d4210d0077f52d16d4342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:00:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>74c11920475d4210d0077f52d16d4341</id>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:00:21</sys_created_on>
+        <sys_id>74c11920475d4210d0077f52d16d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:00:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=74c11920475d4210d0077f52d16d4341"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=74c11920475d4210d0077f52d16d4341"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="EduTrack Catalog flow">5ccc0d28471d4210d0077f52d16d433d</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:03:30</sys_created_on>
+        <sys_id>7e72d560475d4210d0077f52d16d432e</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-01 01:27:25</sys_updated_on>
+        <ui_id>32ea1237-938a-4664-a06b-9398a372acaa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7e72d560475d4210d0077f52d16d432e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7e72d560475d4210d0077f52d16d432e</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:03:30</sys_created_on>
+        <sys_id>7a72d560475d4210d0077f52d16d4330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:03:30</sys_updated_on>
+        <value>sc_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7e72d560475d4210d0077f52d16d432e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:03:30</sys_created_on>
+        <sys_id>b672d560475d4210d0077f52d16d4330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:03:30</sys_updated_on>
+        <value>request_state=closed_complete</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7e72d560475d4210d0077f52d16d432e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>7e72d560475d4210d0077f52d16d432e</id>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:03:30</sys_created_on>
+        <sys_id>3672d560475d4210d0077f52d16d4330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:03:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Service Catalog_1.request_item.request}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>7e72d560475d4210d0077f52d16d432e</id>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:03:30</sys_created_on>
+        <sys_id>be72d560475d4210d0077f52d16d432f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:03:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>7e72d560475d4210d0077f52d16d432e</id>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:03:30</sys_created_on>
+        <sys_id>7272d560475d4210d0077f52d16d4330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:03:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7e72d560475d4210d0077f52d16d432e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7e72d560475d4210d0077f52d16d432e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="EduTrack Catalog flow">5ccc0d28471d4210d0077f52d16d433d</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 02:58:05</sys_created_on>
+        <sys_id>a7315dec471d4210d0077f52d16d4332</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-01 01:27:25</sys_updated_on>
+        <ui_id>aac08639-6858-40e9-8af7-7c786510dad0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a7315dec471d4210d0077f52d16d4332"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a7315dec471d4210d0077f52d16d4332</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 02:58:05</sys_created_on>
+        <sys_id>67315dec471d4210d0077f52d16d4336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 02:58:05</sys_updated_on>
+        <value>Item is on the way !!!</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a7315dec471d4210d0077f52d16d4332</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 02:58:05</sys_created_on>
+        <sys_id>a3315dec471d4210d0077f52d16d4336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 02:58:05</sys_updated_on>
+        <value>&lt;p&gt;Greetings !!!&lt;/p&gt;
+&lt;p&gt;Your kid(s) item(s) is shipped and will be delivered soon.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Thank you.&lt;/p&gt;</value>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a7315dec471d4210d0077f52d16d4332</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 02:58:05</sys_created_on>
+        <sys_id>eb315dec471d4210d0077f52d16d4335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 02:58:05</sys_updated_on>
+        <value>alex.brown@mail.com</value>
+        <variable display_value="To">59806bf4a70323008299b39f087901da</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb^id=a7315dec471d4210d0077f52d16d4332"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a7315dec471d4210d0077f52d16d4332"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a7315dec471d4210d0077f52d16d4332"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=5ccc0d28471d4210d0077f52d16d433d"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=5ccc0d28471d4210d0077f52d16d433d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=5ccc0d28471d4210d0077f52d16d433d"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=5ccc0d28471d4210d0077f52d16d433d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_5ccc0d28471d4210d0077f52d16d433d^sys_idNOT IN40bd85e8471d4210d0077f52d16d43c6,80bd85e8471d4210d0077f52d16d43cb"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5ccc0d28471d4210d0077f52d16d433d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 02:42:33</sys_created_on>
+        <sys_id>40bd85e8471d4210d0077f52d16d43c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 02:42:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5ccc0d28471d4210d0077f52d16d433d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 02:42:33</sys_created_on>
+        <sys_id>80bd85e8471d4210d0077f52d16d43cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 02:42:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_5ccc0d28471d4210d0077f52d16d433d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_5ccc0d28471d4210d0077f52d16d433d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_5ccc0d28471d4210d0077f52d16d433d"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>EduTrack Catalog flow for purchases</description>
+        <internal_name>edutrack_catalog_flow</internal_name>
+        <label_cache>[{"name":"Service Catalog_1.request_item.request","label":"Trigger - Service Catalog➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request"},{"name":"Service Catalog_1.request_item.requested_for.email","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}}]</label_cache>
+        <master>true</master>
+        <name>EduTrack Catalog flow</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="EduTrack Catalog flow">5ccc0d28471d4210d0077f52d16d433d</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>72929960475d4210d0077f52d16d4322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:02</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=72929960475d4210d0077f52d16d4322"/>
+    <sys_variable_value action="delete_multiple" query="document_key=72929960475d4210d0077f52d16d4322"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=72929960475d4210d0077f52d16d4322^sys_idNOT IN4b929960475d4210d0077f52d16d43a1"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="EduTrack Catalog flow">72929960475d4210d0077f52d16d4322</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>4b929960475d4210d0077f52d16d43a1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:04</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4b929960475d4210d0077f52d16d43a1"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=72929960475d4210d0077f52d16d4322"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=72929960475d4210d0077f52d16d4322^sys_idNOT INf2929960475d4210d0077f52d16d4323"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>72929960475d4210d0077f52d16d4322</id>
+        <name>EduTrack Catalog flow</name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:02</sys_created_on>
+        <sys_id>f2929960475d4210d0077f52d16d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:02</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f2929960475d4210d0077f52d16d4323"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=72929960475d4210d0077f52d16d4322^sys_idNOT INf2929960475d4210d0077f52d16d4352,f6929960475d4210d0077f52d16d4324"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="EduTrack Catalog flow">72929960475d4210d0077f52d16d4322</model>
+        <model_id>72929960475d4210d0077f52d16d4322</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_72929960475d4210d0077f52d16d4322</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>f2929960475d4210d0077f52d16d4352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f2929960475d4210d0077f52d16d4352"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="EduTrack Catalog flow">72929960475d4210d0077f52d16d4322</model>
+        <model_id>72929960475d4210d0077f52d16d4322</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_72929960475d4210d0077f52d16d4322</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:02</sys_created_on>
+        <sys_id>f6929960475d4210d0077f52d16d4324</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f6929960475d4210d0077f52d16d4324"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=72929960475d4210d0077f52d16d4322"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=72929960475d4210d0077f52d16d4322"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=72929960475d4210d0077f52d16d4322^sys_idNOT IN3e929960475d4210d0077f52d16d437b,47929960475d4210d0077f52d16d4399,4b929960475d4210d0077f52d16d439f,8f929960475d4210d0077f52d16d4391,cb929960475d4210d0077f52d16d4386"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="EduTrack Catalog flow">72929960475d4210d0077f52d16d4322</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>3e929960475d4210d0077f52d16d437b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <ui_id>1f67bb54-1501-4d51-9a17-18cfcebc08f5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3e929960475d4210d0077f52d16d437b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3e929960475d4210d0077f52d16d437b</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>3a929960475d4210d0077f52d16d437d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3e929960475d4210d0077f52d16d437b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>76929960475d4210d0077f52d16d437d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <value>state=-5</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3e929960475d4210d0077f52d16d437b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>3e929960475d4210d0077f52d16d437b</id>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>f2929960475d4210d0077f52d16d437d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>3e929960475d4210d0077f52d16d437b</id>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>7e929960475d4210d0077f52d16d437c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>3e929960475d4210d0077f52d16d437b</id>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>32929960475d4210d0077f52d16d437d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3e929960475d4210d0077f52d16d437b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3e929960475d4210d0077f52d16d437b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="EduTrack Catalog flow">72929960475d4210d0077f52d16d4322</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>47929960475d4210d0077f52d16d4399</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <ui_id>ecb99995-c747-4f2f-817d-bbc1584837a7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=47929960475d4210d0077f52d16d4399"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>47929960475d4210d0077f52d16d4399</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>43929960475d4210d0077f52d16d439b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>47929960475d4210d0077f52d16d4399</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>8f929960475d4210d0077f52d16d439a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=47929960475d4210d0077f52d16d4399"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>47929960475d4210d0077f52d16d4399</id>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>0f929960475d4210d0077f52d16d439a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>47929960475d4210d0077f52d16d4399</id>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>87929960475d4210d0077f52d16d439a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>47929960475d4210d0077f52d16d4399</id>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>4b929960475d4210d0077f52d16d439a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=47929960475d4210d0077f52d16d4399"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=47929960475d4210d0077f52d16d4399"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="EduTrack Catalog flow">72929960475d4210d0077f52d16d4322</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>4b929960475d4210d0077f52d16d439f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <ui_id>32ea1237-938a-4664-a06b-9398a372acaa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4b929960475d4210d0077f52d16d439f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4b929960475d4210d0077f52d16d439f</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>47929960475d4210d0077f52d16d43a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <value>sc_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4b929960475d4210d0077f52d16d439f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>83929960475d4210d0077f52d16d43a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <value>request_state=closed_complete</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4b929960475d4210d0077f52d16d439f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>4b929960475d4210d0077f52d16d439f</id>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>03929960475d4210d0077f52d16d43a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Service Catalog_1.request_item.request}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>4b929960475d4210d0077f52d16d439f</id>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>8b929960475d4210d0077f52d16d43a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>4b929960475d4210d0077f52d16d439f</id>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>4f929960475d4210d0077f52d16d43a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4b929960475d4210d0077f52d16d439f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4b929960475d4210d0077f52d16d439f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="EduTrack Catalog flow">72929960475d4210d0077f52d16d4322</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>8f929960475d4210d0077f52d16d4391</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <ui_id>aac08639-6858-40e9-8af7-7c786510dad0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8f929960475d4210d0077f52d16d4391"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8f929960475d4210d0077f52d16d4391</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>0b929960475d4210d0077f52d16d4394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <value>&lt;p&gt;Greetings !!!&lt;/p&gt;
+&lt;p&gt;Your kid(s) item(s) is shipped and will be delivered soon.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Thank you.&lt;/p&gt;</value>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8f929960475d4210d0077f52d16d4391</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>47929960475d4210d0077f52d16d4394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <value>alex.brown@mail.com</value>
+        <variable display_value="To">59806bf4a70323008299b39f087901da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8f929960475d4210d0077f52d16d4391</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>cb929960475d4210d0077f52d16d4394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <value>Item is on the way !!!</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb^id=8f929960475d4210d0077f52d16d4391"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8f929960475d4210d0077f52d16d4391"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8f929960475d4210d0077f52d16d4391"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="EduTrack Catalog flow">72929960475d4210d0077f52d16d4322</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>cb929960475d4210d0077f52d16d4386</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <ui_id>067d4657-fb20-4609-8318-bc907e1c6a0a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cb929960475d4210d0077f52d16d4386"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cb929960475d4210d0077f52d16d4386</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>4f929960475d4210d0077f52d16d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <value>assignment_group={"display":"Edutrack Admin Group","value":"005185e847d94210d0077f52d16d433b","sys_id":"005185e847d94210d0077f52d16d433b"}^state=1</value>
+        <variable display_value="Fields">7751fd0e73141300612c273ffff6a7ac</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=cb929960475d4210d0077f52d16d4386"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_fields</field>
+        <id>cb929960475d4210d0077f52d16d4386</id>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>cb929960475d4210d0077f52d16d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_requested_item</field>
+        <id>cb929960475d4210d0077f52d16d4386</id>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>0b929960475d4210d0077f52d16d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cb929960475d4210d0077f52d16d4386"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cb929960475d4210d0077f52d16d4386"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=72929960475d4210d0077f52d16d4322"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=72929960475d4210d0077f52d16d4322"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=72929960475d4210d0077f52d16d4322"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=72929960475d4210d0077f52d16d4322"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_72929960475d4210d0077f52d16d4322^sys_idNOT INba929960475d4210d0077f52d16d434e,f6929960475d4210d0077f52d16d4356"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_72929960475d4210d0077f52d16d4322</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>ba929960475d4210d0077f52d16d434e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_72929960475d4210d0077f52d16d4322</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:03</sys_created_on>
+        <sys_id>f6929960475d4210d0077f52d16d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_72929960475d4210d0077f52d16d4322"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_72929960475d4210d0077f52d16d4322"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_72929960475d4210d0077f52d16d4322"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>5ccc0d28471d4210d0077f52d16d433d</sys_id>
+        <latest_snapshot>72929960475d4210d0077f52d16d4322</latest_snapshot>
+        <compiler_build>glide-vancouver-07-06-2023__patch2-hotfix1-10-04-2023_10-06-2023_1235.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=5ccc0d28471d4210d0077f52d16d433d^sys_idNOT IN03929960475d4210d0077f52d16d43da"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"03929960475d4210d0077f52d16d43da","name":"plan","plan_signature":null}}</plan>
+        <plan_id>5ccc0d28471d4210d0077f52d16d433d</plan_id>
+        <snapshot>28495ce547d10210d0077f52d16d43c1</snapshot>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-29 03:04:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>03929960475d4210d0077f52d16d43da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:04:04</sys_updated_on>
+        <trigger display_value="">0b929960475d4210d0077f52d16d43d9</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=5ccc0d28471d4210d0077f52d16d433d"/>
+</record_update>

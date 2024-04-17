@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e62bf7c047550210d0077f52d16d4331" extends="sys_import_set_row" label="Teacher Rosters" max_length="40" name="x_1359929_edutrack_teacher_rosters" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Teacher Name" label="Teacher Name" max_length="40" name="u_teacher_name" type="string"/>
+    </element>
+</database>

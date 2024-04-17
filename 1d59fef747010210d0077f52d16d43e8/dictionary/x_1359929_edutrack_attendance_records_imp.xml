@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3b8243f347410210d0077f52d16d43f7" extends="sys_import_set_row" label="Attendance Records IMP" max_length="40" name="x_1359929_edutrack_attendance_records_imp" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date" label="Date" max_length="40" name="u_date" type="glide_date"/>
+        <element attributes="import_attribute_name=Grade" label="Grade" max_length="40" name="u_grade" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Period 1" label="Period 1" max_length="40" name="u_period_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Period 2" label="Period 2" max_length="40" name="u_period_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Period 3" label="Period 3" max_length="40" name="u_period_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Period 4" label="Period 4" max_length="40" name="u_period_4" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Period 5" label="Period 5" max_length="40" name="u_period_5" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Period 6" label="Period 6" max_length="40" name="u_period_6" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Period 7" label="Period 7" max_length="40" name="u_period_7" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Student" label="Student" max_length="40" name="u_student" type="string"/>
+        <element attributes="import_attribute_name=Student ID" label="Student ID" max_length="40" name="u_student_id" type="integer"/>
+    </element>
+</database>

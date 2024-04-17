@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="ede709a0471d4210d0077f52d16d43ef" sys_domain="global" table="sys_user" version="3" view="edutrack_app_view">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_name</element>
+            <position>0</position>
+            <sys_created_by>rene</sys_created_by>
+            <sys_created_on>2024-03-29 02:43:41</sys_created_on>
+            <sys_id>3cfd4de8471d4210d0077f52d16d4320</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="21e709a0471d4210d0077f52d16d43ea">ede709a0471d4210d0077f52d16d43ef</sys_ui_section>
+            <sys_updated_by>rene</sys_updated_by>
+            <sys_updated_on>2024-03-29 02:43:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>first_name</element>
+            <position>1</position>
+            <sys_created_by>rene</sys_created_by>
+            <sys_created_on>2024-03-29 02:43:41</sys_created_on>
+            <sys_id>b0fd4de8471d4210d0077f52d16d4321</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="21e709a0471d4210d0077f52d16d43ea">ede709a0471d4210d0077f52d16d43ef</sys_ui_section>
+            <sys_updated_by>rene</sys_updated_by>
+            <sys_updated_on>2024-03-29 02:43:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_name</element>
+            <position>2</position>
+            <sys_created_by>rene</sys_created_by>
+            <sys_created_on>2024-03-29 02:43:41</sys_created_on>
+            <sys_id>34fd4de8471d4210d0077f52d16d4321</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="21e709a0471d4210d0077f52d16d43ea">ede709a0471d4210d0077f52d16d43ef</sys_ui_section>
+            <sys_updated_by>rene</sys_updated_by>
+            <sys_updated_on>2024-03-29 02:43:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_1359929_edutrack_grade</element>
+            <position>3</position>
+            <sys_created_by>rene</sys_created_by>
+            <sys_created_on>2024-03-29 02:43:41</sys_created_on>
+            <sys_id>b4fd4de8471d4210d0077f52d16d4321</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="21e709a0471d4210d0077f52d16d43ea">ede709a0471d4210d0077f52d16d43ef</sys_ui_section>
+            <sys_updated_by>rene</sys_updated_by>
+            <sys_updated_on>2024-03-29 02:43:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_1359929_edutrack_parent</element>
+            <position>4</position>
+            <sys_created_by>rene</sys_created_by>
+            <sys_created_on>2024-03-29 02:43:41</sys_created_on>
+            <sys_id>38fd4de8471d4210d0077f52d16d4321</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="21e709a0471d4210d0077f52d16d43ea">ede709a0471d4210d0077f52d16d43ef</sys_ui_section>
+            <sys_updated_by>rene</sys_updated_by>
+            <sys_updated_on>2024-03-29 02:43:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_1359929_edutrack_parent.email</element>
+            <position>5</position>
+            <sys_created_by>rene</sys_created_by>
+            <sys_created_on>2024-03-29 02:43:41</sys_created_on>
+            <sys_id>b8fd4de8471d4210d0077f52d16d4321</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="21e709a0471d4210d0077f52d16d43ea">ede709a0471d4210d0077f52d16d43ef</sys_ui_section>
+            <sys_updated_by>rene</sys_updated_by>
+            <sys_updated_on>2024-03-29 02:43:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sys_user</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>rene</sys_created_by>
+            <sys_created_on>2024-03-29 02:17:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ede709a0471d4210d0077f52d16d43ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_user</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+            <sys_update_name>sys_ui_section_ede709a0471d4210d0077f52d16d43ef</sys_update_name>
+            <sys_updated_by>rene</sys_updated_by>
+            <sys_updated_on>2024-03-29 02:17:16</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Edutrack App View" name="edutrack_app_view">21e709a0471d4210d0077f52d16d43ea</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

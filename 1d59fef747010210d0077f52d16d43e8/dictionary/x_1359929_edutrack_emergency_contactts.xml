@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2c3efa7f47010210d0077f52d16d4301" label="Emergency Contacts" max_length="40" name="x_1359929_edutrack_emergency_contactts" type="collection">
+        <element attributes="encode_utf8=false" label="Email" max_length="32" name="email" reference="sys_email_account" type="reference"/>
+        <element attributes="encode_utf8=false" label="Emergency Contact" max_length="32" name="emergency_contact" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Phone Number" max_length="32" name="phone_number" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Student" max_length="40" name="student" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="email"/>
+        </index>
+        <index name="index2">
+            <element name="emergency_contact"/>
+        </index>
+        <index name="index3">
+            <element name="phone_number"/>
+        </index>
+        <index name="index4">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

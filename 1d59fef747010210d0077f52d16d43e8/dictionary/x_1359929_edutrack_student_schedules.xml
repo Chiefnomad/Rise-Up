@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6a0f3ebf47010210d0077f52d16d4372" label="Student Schedules" max_length="40" name="x_1359929_edutrack_student_schedules" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Grade" max_length="40" name="grade" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Period 1" max_length="40" name="period_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Period 2" max_length="40" name="period_2" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Period 3" max_length="40" name="period_3" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Period 4" max_length="40" name="period_4" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Period 5" max_length="40" name="period_5" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Period 6" max_length="40" name="period_6" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Period 7" max_length="40" name="period_7" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Student" max_length="40" name="student" type="string"/>
+        <element attributes="encode_utf8=false" label="Student ID" max_length="32" name="student_id" reference="sys_user" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="student_id"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

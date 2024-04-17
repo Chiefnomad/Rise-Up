@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="DELETE">
+        <applicability display_value="Public">51dcb86499d94210f2b84919b678fbe6</applicability>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-03-29 01:28:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1ddcb864d2d94210765e4d328e3df5e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_update_name>m2m_app_config_theme_1ddcb864d2d94210765e4d328e3df5e7</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-03-29 01:28:56</sys_updated_on>
+        <theme display_value="Light Theme">15dcb864fed9421014588004b75f8fe6</theme>
+        <ux_app_configuration display_value="">d5dcb86447d94210d0077f52d16d437a</ux_app_configuration>
+    </m2m_app_config_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</application>
+        <file_path/>
+        <instance_id>7dab5df01b7635901024eb9b2d4bcbe8</instance_id>
+        <instance_name>dev226006</instance_name>
+        <name>m2m_app_config_theme_1ddcb864d2d94210765e4d328e3df5e7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme"><m2m_app_config_theme action="INSERT_OR_UPDATE"><applicability display_value="Public">51dcb86499d94210f2b84919b678fbe6</applicability><order>0</order><sys_class_name>m2m_app_config_theme</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2024-03-29 01:28:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1ddcb864d2d94210765e4d328e3df5e7</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package><sys_policy/><sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope><sys_update_name>m2m_app_config_theme_1ddcb864d2d94210765e4d328e3df5e7</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-03-29 01:28:56</sys_updated_on><theme display_value="Light Theme">15dcb864fed9421014588004b75f8fe6</theme><ux_app_configuration display_value="">d5dcb86447d94210d0077f52d16d437a</ux_app_configuration></m2m_app_config_theme></record_update>]]></payload>
+        <payload_hash>-331547961</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>agb</sys_created_by>
+        <sys_created_on>2024-04-02 21:36:38</sys_created_on>
+        <sys_id>eb97b50647950210d0077f52d16d4329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ea0be1f1f0000001</sys_recorded_at>
+        <sys_updated_by>agb</sys_updated_by>
+        <sys_updated_on>2024-04-02 21:36:38</sys_updated_on>
+        <type>UX App Theme</type>
+        <update_guid>ab97b506b99502105afc87576438de29</update_guid>
+        <update_guid_history>ab97b506b99502105afc87576438de29:-331547961</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">2397b50647950210d0077f52d16d432b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>agb</sys_created_by>
+        <sys_created_on>2024-04-02 21:36:38</sys_created_on>
+        <sys_db_object display_value="" name="m2m_app_config_theme">m2m_app_config_theme</sys_db_object>
+        <sys_id>55ed6533823b41e689c0202b796191e4</sys_id>
+        <sys_metadata>1ddcb864d2d94210765e4d328e3df5e7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_scope_delete display_value="">4f84f83a9ab9479e9d78128ac347fec4</sys_scope_delete>
+        <sys_update_name>m2m_app_config_theme_1ddcb864d2d94210765e4d328e3df5e7</sys_update_name>
+        <sys_update_version display_value="m2m_app_config_theme_1ddcb864d2d94210765e4d328e3df5e7">eb97b50647950210d0077f52d16d4329</sys_update_version>
+        <sys_updated_by>agb</sys_updated_by>
+        <sys_updated_on>2024-04-02 21:36:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

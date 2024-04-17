@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab">
+    <par_dashboard_tab action="DELETE">
+        <active>true</active>
+        <dashboard display_value="Edutrack Workspace">779e1dc647150210d0077f52d16d433b</dashboard>
+        <name>Tab</name>
+        <order>0</order>
+        <sys_class_name>par_dashboard_tab</sys_class_name>
+        <sys_created_by>agb</sys_created_by>
+        <sys_created_on>2024-04-02 19:47:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7f9e114a47150210d0077f52d16d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_update_name>par_dashboard_tab_7f9e114a47150210d0077f52d16d433e</sys_update_name>
+        <sys_updated_by>agb</sys_updated_by>
+        <sys_updated_on>2024-04-02 19:47:26</sys_updated_on>
+    </par_dashboard_tab>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</application>
+        <file_path/>
+        <instance_id>7dab5df01b7635901024eb9b2d4bcbe8</instance_id>
+        <instance_name>dev226006</instance_name>
+        <name>par_dashboard_tab_7f9e114a47150210d0077f52d16d433e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab"><par_dashboard_tab action="INSERT_OR_UPDATE"><active>true</active><dashboard display_value="Edutrack Workspace">779e1dc647150210d0077f52d16d433b</dashboard><name>Tab</name><order>0</order><sys_class_name>par_dashboard_tab</sys_class_name><sys_created_by>agb</sys_created_by><sys_created_on>2024-04-02 19:47:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7f9e114a47150210d0077f52d16d433e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Tab</sys_name><sys_overrides/><sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package><sys_policy/><sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope><sys_update_name>par_dashboard_tab_7f9e114a47150210d0077f52d16d433e</sys_update_name><sys_updated_by>agb</sys_updated_by><sys_updated_on>2024-04-02 19:47:26</sys_updated_on></par_dashboard_tab></record_update>]]></payload>
+        <payload_hash>1936139183</payload_hash>
+        <record_name>Tab</record_name>
+        <reverted_from/>
+        <source>9159323b47010210d0077f52d16d4312</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>agb</sys_created_by>
+        <sys_created_on>2024-04-02 19:47:26</sys_created_on>
+        <sys_id>7b9e114a47150210d0077f52d16d4366</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ea05a266d0000001</sys_recorded_at>
+        <sys_updated_by>agb</sys_updated_by>
+        <sys_updated_on>2024-04-02 19:47:26</sys_updated_on>
+        <type>PAR Dashboard Tab</type>
+        <update_guid>7f9e114a06150210df32c0fc498dfa65</update_guid>
+        <update_guid_history>7f9e114a06150210df32c0fc498dfa65:1936139183</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Tab">e2b1e50e47150210d0077f52d16d43c9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>agb</sys_created_by>
+        <sys_created_on>2024-04-02 20:01:00</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_tab">par_dashboard_tab</sys_db_object>
+        <sys_id>07349b3ca8c74aac8087489d518ec890</sys_id>
+        <sys_metadata>7f9e114a47150210d0077f52d16d433e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tab</sys_name>
+        <sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_scope_delete display_value="">4f84f83a9ab9479e9d78128ac347fec4</sys_scope_delete>
+        <sys_update_name>par_dashboard_tab_7f9e114a47150210d0077f52d16d433e</sys_update_name>
+        <sys_update_version display_value="par_dashboard_tab_7f9e114a47150210d0077f52d16d433e">7b9e114a47150210d0077f52d16d4366</sys_update_version>
+        <sys_updated_by>agb</sys_updated_by>
+        <sys_updated_on>2024-04-02 20:01:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

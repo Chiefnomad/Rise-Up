@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="224c36fb47010210d0077f52d16d439e" label="Attendance Records" max_length="40" name="x_1359929_edutrack_attendance_records" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="date" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Emergency Contact" max_length="32" name="emergency_contact" reference="x_1359929_edutrack_emergency_contactts" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Grade" max_length="40" name="grade" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="10" sequence="0" value="10"/>
+                <element inactive_on_update="false" label="9" sequence="0" value="9"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Period 1" max_length="40" name="period_1" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ET" value="Excused Tardy"/>
+                <element inactive_on_update="false" label="EA" sequence="0" value="Excused Absent"/>
+                <element inactive_on_update="false" label="NC" sequence="0" value="No Class"/>
+                <element inactive_on_update="false" label="P" sequence="0" value="Present"/>
+                <element inactive_on_update="false" label="UA" sequence="0" value="Unexcused Absent"/>
+                <element inactive_on_update="false" label="UT" sequence="0" value="Unexcused Tardy"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Period 2" max_length="40" name="period_2" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="UT" value="Unexused Tardy"/>
+                <element inactive_on_update="false" label="EA" sequence="0" value="Excused Absent"/>
+                <element inactive_on_update="false" label="ET" sequence="0" value="Excused Tardy"/>
+                <element inactive_on_update="false" label="NC" sequence="0" value="No Class"/>
+                <element inactive_on_update="false" label="P" sequence="0" value="Present"/>
+                <element inactive_on_update="false" label="UA" sequence="0" value="Unexcused Absent"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Period 3" max_length="40" name="period_3" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ET" value="Excused Tardy"/>
+                <element inactive_on_update="false" label="UT" value="Unexcused Tardy"/>
+                <element inactive_on_update="false" label="EA" sequence="0" value="Excused Absence"/>
+                <element inactive_on_update="false" label="NC" sequence="0" value="No Class"/>
+                <element inactive_on_update="false" label="P" sequence="0" value="Present"/>
+                <element inactive_on_update="false" label="UA" sequence="0" value="Unexused Absence"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Period 4" max_length="40" name="period_4" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ET" value="Excused Tardy"/>
+                <element inactive_on_update="false" label="NC" value="No Class"/>
+                <element inactive_on_update="false" label="EA" sequence="0" value="Excused Absence"/>
+                <element inactive_on_update="false" label="P" sequence="0" value="Present"/>
+                <element inactive_on_update="false" label="UA" sequence="0" value="Unexused Absent"/>
+                <element inactive_on_update="false" label="UT" sequence="0" value="Unexcused Tardy"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Period 5" max_length="40" name="period_5" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ET" value="Excused Tardy"/>
+                <element inactive_on_update="false" label="UT" value="Unexcused Tardy"/>
+                <element inactive_on_update="false" label="EA" sequence="0" value="Excused Absence"/>
+                <element inactive_on_update="false" label="ER" sequence="0" value="Early Release"/>
+                <element inactive_on_update="false" label="P" sequence="0" value="Present"/>
+                <element inactive_on_update="false" label="UA" sequence="0" value="Unexcused Absence"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Period 6" max_length="40" name="period_6" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ET" value="Excused Tardy"/>
+                <element inactive_on_update="false" label="NC" value="No Class"/>
+                <element inactive_on_update="false" label="UT" value="Unexcused Tardy"/>
+                <element inactive_on_update="false" label="EA" sequence="0" value="Excused Absence"/>
+                <element inactive_on_update="false" label="P" sequence="0" value="Present"/>
+                <element inactive_on_update="false" label="UA" sequence="0" value="Unexcused Absence"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Period 7" max_length="40" name="period_7" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ET" value="Excused Tardy"/>
+                <element inactive_on_update="false" label="NC" value="No Class"/>
+                <element inactive_on_update="false" label="UT" value="Unexcused Tardy"/>
+                <element inactive_on_update="false" label="EA" sequence="0" value="Excused Absence"/>
+                <element inactive_on_update="false" label="P" sequence="0" value="Present"/>
+                <element inactive_on_update="false" label="UA" sequence="0" value="Unexcused Absence"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Student" max_length="32" name="student" reference="sys_user" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="emergency_contact"/>
+        </index>
+        <index name="index2">
+            <element name="student"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

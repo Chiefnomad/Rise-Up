@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "4335ba6dca80378f7ba7a67cd6667bec",
+            "type": "MACROPONENT"
+        },
+        "elementId": "redesigned_subtext",
+        "elementLabel": "Redesigned subtext",
+        "eventMappings": [
+            
+        ],
+        "extensionPoints": [
+            
+        ],
+        "isHero": false,
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "isNonDestructive": false,
+        "items": [
+            
+        ],
+        "overrides": null,
+        "propertyValues": {
+            "css": {
+                "type": "JSON_LITERAL",
+                "value": "* { }"
+            },
+            "tag": {
+                "type": "JSON_LITERAL",
+                "value": "div"
+            },
+            "text": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "We have redesigned every detail to make it better for you."
+                }
+            }
+        },
+        "slot": "",
+        "styles": {
+            "font-size": "16px"
+        }
+    },
+    {
+        "definition": {
+            "id": "67d8bc45906c355a3100c0782f45487b",
+            "type": "MACROPONENT"
+        },
+        "elementId": "learn_more",
+        "elementLabel": "Learn more",
+        "eventMappings": [
+            {
+                "eventMappingId": "cljjiidgphhbaaddsvddbhhxbbccyxlaadl",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_button.NOW_BUTTON_BARE#CLICKED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_button.NOW_BUTTON_BARE#CLICKED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "polaris_app_shell.SN_HELP#GUIDANCE_START_REQUESTED",
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {
+                                    "guidanceId": "02b2972e778201100bfdaeb4bb5a99c5"
+                                }
+                            },
+                            "sysId": "f7d32e61c3123010b6cb4b46dd40dd7c"
+                        },
+                        "operation": null,
+                        "targetId": "cljjiidgphhbaaddswddbhhxddnravbjjm",
+                        "type": "EVENT"
+                    }
+                ]
+            }
+        ],
+        "extensionPoints": [
+            
+        ],
+        "isHero": false,
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "isNonDestructive": false,
+        "items": [
+            
+        ],
+        "overrides": null,
+        "propertyValues": {
+            "configAria": {
+                "container": {
+                    "button": {
+                        "container": {
+                            "aria-label": {
+                                "type": "TRANSLATION_LITERAL",
+                                "value": {
+                                    "code": null,
+                                    "comment": "",
+                                    "message": "Learn more"
+                                }
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    }
+                },
+                "type": "MAP_CONTAINER"
+            },
+            "disabled": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideBlockPadding": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "highContrast": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "iconEnd": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "iconStart": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "label": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Learn more"
+                }
+            },
+            "showInlinePadding": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "size": {
+                "type": "JSON_LITERAL",
+                "value": "sm"
+            },
+            "variant": {
+                "type": "JSON_LITERAL",
+                "value": "secondary"
+            }
+        },
+        "slot": null,
+        "styles": {}
+    },
+    {
+        "definition": {
+            "id": "4335ba6dca80378f7ba7a67cd6667bec",
+            "type": "MACROPONENT"
+        },
+        "elementId": "explore_text",
+        "elementLabel": "Explore text",
+        "eventMappings": [
+            
+        ],
+        "extensionPoints": [
+            
+        ],
+        "isHero": false,
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "isNonDestructive": false,
+        "items": [
+            
+        ],
+        "overrides": null,
+        "propertyValues": {
+            "css": {
+                "type": "JSON_LITERAL",
+                "value": "* { }"
+            },
+            "tag": {
+                "type": "JSON_LITERAL",
+                "value": "div"
+            },
+            "text": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Explore key features in Service Operations Workspace"
+                }
+            }
+        },
+        "slot": null,
+        "styles": {}
+    },
+    {
+        "definition": {
+            "id": "1f6e0643eca7a637e36bd7833549ec9e",
+            "type": "MACROPONENT"
+        },
+        "elementId": "getting_started",
+        "elementLabel": "Getting started",
+        "eventMappings": [
+            
+        ],
+        "extensionPoints": [
+            
+        ],
+        "isHero": false,
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "isNonDestructive": false,
+        "items": [
+            
+        ],
+        "overrides": null,
+        "propertyValues": {
+            "hasNoMargin": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "label": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Getting started"
+                }
+            },
+            "level": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "variant": {
+                "type": "JSON_LITERAL",
+                "value": "header-secondary"
+            },
+            "wontWrap": {
+                "type": "JSON_LITERAL",
+                "value": false
+            }
+        },
+        "slot": null,
+        "styles": {}
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    {
+        "cachePolicy": null,
+        "definition": {
+            "id": "83114bc453231010c495ddeeff7b12d9",
+            "type": "COMPOSITE"
+        },
+        "dependencies": {},
+        "elementId": "look_up_user_tour",
+        "elementLabel": "Lookup User Tour",
+        "eventMappings": [
+            {
+                "eventMappingId": "clbbmbbylhxaabjjffddehhddggriigghaaogg",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_uxf.DATA_FETCH_SUCCEEDED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_uxf.DATA_FETCH_SUCCEEDED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": {
+                            "sysId": "1033688647110210d0077f52d16d4332"
+                        },
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": null,
+                        "targetId": "clbbmbbylhxaabjjggddehhddfuleeexhhcc",
+                        "type": "CLIENT_SCRIPT"
+                    }
+                ]
+            }
+        ],
+        "inputValues": {
+            "includeRoles": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "preferences": {
+                "type": "JSON_LITERAL",
+                "value": "sow.incident.landing_page_hide_tour"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    },
+    {
+        "cachePolicy": null,
+        "definition": {
+            "id": "0b84084c536910105a20ddeeff7b124b",
+            "type": "GRAPHQL"
+        },
+        "dependencies": {},
+        "elementId": "save_user_preference",
+        "elementLabel": "Save User Preference",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {},
+        "readEvaluationMode": "EXPLICIT"
+    }
+]</data>
+        <description/>
+        <dispatched_events>7c276b63772201100bfdaeb4bb5a995d,f7d32e61c3123010b6cb4b46dd40dd7c</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "isInline": null,
+        "items": [
+            {
+                "element_id": "getting_started",
+                "styles": {
+                    "margin-bottom": "var(--now-static-space--lg)"
+                }
+            },
+            {
+                "element_id": "explore_text",
+                "styles": {
+                    "font-size": "var(--now-static-space--lg)",
+                    "margin-bottom": "var(--now-static-space--xs)"
+                }
+            },
+            {
+                "element_id": "redesigned_subtext",
+                "styles": {
+                    "color": "RGB(var(--now-color_text--tertiary, var(--now-color--neutral-12, 66, 80, 81)))",
+                    "font-size": "var(--now-static-space--lg)",
+                    "margin-bottom": "var(--now-static-space--xs)"
+                }
+            },
+            {
+                "element_id": "learn_more",
+                "styles": {}
+            },
+            {
+                "element_id": "textarea_1",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "display": "flex",
+            "flex-direction": "column",
+            "margin-top": "var(--now-static-space--xl)"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Welcome SOW SNC</name>
+        <output_prop_mapping/>
+        <props>[
+    
+]</props>
+        <required_translations>[ {
+  "message" : "Explore key features in Service Operations Workspace",
+  "comment" : ""
+}, {
+  "message" : "Getting started",
+  "comment" : ""
+}, {
+  "message" : "Learn more",
+  "comment" : ""
+}, {
+  "message" : "We have redesigned every detail to make it better for you.",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{}</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[
+    
+]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-04-02 15:27:46</sys_created_on>
+        <sys_id>4033288647110210d0077f52d16d4311</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Welcome SOW SNC</sys_name>
+        <sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_update_name>sys_ux_macroponent_4033288647110210d0077f52d16d4311</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-02 15:27:48</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=4033288647110210d0077f52d16d4311"/>
+</record_update>

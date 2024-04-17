@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Laptop">87704f9c47914210d0077f52d16d43a1</sc_cat_item>
+        <sc_category display_value="Laptops">59f586f23731300054b6a3549dbe5db7</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-28 16:44:23</sys_created_on>
+        <sys_id>bdc44fd047d14210d0077f52d16d4369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Laptops.Laptop</sys_name>
+        <sys_package display_value="EduTrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EduTrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_update_name>sc_cat_item_category_bdc44fd047d14210d0077f52d16d4369</sys_update_name>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-28 16:44:23</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</application>
+        <file_path/>
+        <instance_id>7dab5df01b7635901024eb9b2d4bcbe8</instance_id>
+        <instance_name>dev226006</instance_name>
+        <name>sc_cat_item_category_bdc44fd047d14210d0077f52d16d4369</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Laptop">87704f9c47914210d0077f52d16d43a1</sc_cat_item><sc_category display_value="Laptops">59f586f23731300054b6a3549dbe5db7</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>yinka</sys_created_by><sys_created_on>2024-03-28 16:44:23</sys_created_on><sys_id>bdc44fd047d14210d0077f52d16d4369</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Laptops.Laptop</sys_name><sys_package display_value="EduTrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package><sys_policy/><sys_scope display_value="EduTrack">1d59fef747010210d0077f52d16d43e8</sys_scope><sys_update_name>sc_cat_item_category_bdc44fd047d14210d0077f52d16d4369</sys_update_name><sys_updated_by>yinka</sys_updated_by><sys_updated_on>2024-03-28 16:44:23</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-451960051</payload_hash>
+        <record_name>Laptops.Laptop</record_name>
+        <reverted_from/>
+        <source>9159323b47010210d0077f52d16d4312</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-28 16:44:23</sys_created_on>
+        <sys_id>b5c44fd047d14210d0077f52d16d436d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e85f2c55c0000001</sys_recorded_at>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-28 16:44:23</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>f9c44fd0ded142100bf0cf64fdcc136c</update_guid>
+        <update_guid_history>f9c44fd0ded142100bf0cf64fdcc136c:-451960051</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Laptops.Laptop">2326c75447d14210d0077f52d16d432b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>yinka</sys_created_by>
+        <sys_created_on>2024-03-28 16:50:31</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>167ca0ed86614e7683bd9773dd3af824</sys_id>
+        <sys_metadata>bdc44fd047d14210d0077f52d16d4369</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Laptops.Laptop</sys_name>
+        <sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_scope_delete display_value="">4f84f83a9ab9479e9d78128ac347fec4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_bdc44fd047d14210d0077f52d16d4369</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_bdc44fd047d14210d0077f52d16d4369">b5c44fd047d14210d0077f52d16d436d</sys_update_version>
+        <sys_updated_by>yinka</sys_updated_by>
+        <sys_updated_on>2024-03-28 16:50:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

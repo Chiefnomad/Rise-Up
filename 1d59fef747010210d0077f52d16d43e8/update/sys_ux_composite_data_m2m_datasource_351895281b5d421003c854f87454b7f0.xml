@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - My Tasks Dataset">f9189528495d4210c784dbdeafd9d4f2</dataset>
+        <datasource display_value="Custom Portal Landing - My Tasks Datasource (Task table)">b5189528b55d4210a0efb2001d5982f1</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-03-29 03:28:04</sys_created_on>
+        <sys_id>351895281b5d421003c854f87454b7f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_351895281b5d421003c854f87454b7f0</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-03-29 03:28:04</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

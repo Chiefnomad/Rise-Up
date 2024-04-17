@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Catalog Item page - Related Items dataset">aeedf9c12ad10610710f3036e3d48f7c</dataset>
+        <order/>
+        <predicate_bundle display_value="Custom portal - Related items">2aedf9c1b8d10610a883bea2dcc60279</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-03-30 19:30:15</sys_created_on>
+        <sys_id>6aedf9c1f2d1061085ecb8d32d90f678</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_6aedf9c1f2d1061085ecb8d32d90f678</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-03-30 19:30:15</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>

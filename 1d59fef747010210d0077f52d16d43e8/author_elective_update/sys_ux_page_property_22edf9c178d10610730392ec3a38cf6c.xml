@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="">2aedf9c147d10610d0077f52d16d4347</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Landing Page">e6edf9c166d10610a92021b996bb8e8c</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-03-30 19:30:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>22edf9c178d10610730392ec3a38cf6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_update_name>sys_ux_page_property_22edf9c178d10610730392ec3a38cf6c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-03-30 19:30:16</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1359929_edutrack.2aedf9c147d10610d0077f52d16d4347.route.chrome_header.e6edf9c166d10610a92021b996bb8e8c</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</application>
+        <file_path/>
+        <instance_id>7dab5df01b7635901024eb9b2d4bcbe8</instance_id>
+        <instance_name>dev226006</instance_name>
+        <name>sys_ux_page_property_22edf9c178d10610730392ec3a38cf6c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_header</name><page display_value="">2aedf9c147d10610d0077f52d16d4347</page><required_translations>[]</required_translations><route display_value="Landing Page">e6edf9c166d10610a92021b996bb8e8c</route><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2024-03-30 19:30:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>22edf9c178d10610730392ec3a38cf6c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package><sys_policy/><sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope><sys_update_name>sys_ux_page_property_22edf9c178d10610730392ec3a38cf6c</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-03-30 19:30:16</sys_updated_on><type>json</type><unique_name>x_1359929_edutrack.2aedf9c147d10610d0077f52d16d4347.route.chrome_header.e6edf9c166d10610a92021b996bb8e8c</unique_name><value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-1658365825</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>agb</sys_created_by>
+        <sys_created_on>2024-03-30 20:51:53</sys_created_on>
+        <sys_id>3290d24d47150610d0077f52d16d43f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e9122142f0000001</sys_recorded_at>
+        <sys_updated_by>agb</sys_updated_by>
+        <sys_updated_on>2024-03-30 20:51:53</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>fe90d24d7c1506100ca5b5f42bf413f7</update_guid>
+        <update_guid_history>fe90d24d7c1506100ca5b5f42bf413f7:-1658365825</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>agb</sys_created_by>
+        <sys_created_on>2024-03-30 20:51:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>90ac4ab834734200a92b9c504a7cd100</sys_id>
+        <sys_metadata>22edf9c178d10610730392ec3a38cf6c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Edutrack" source="x_1359929_edutrack">1d59fef747010210d0077f52d16d43e8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Edutrack">1d59fef747010210d0077f52d16d43e8</sys_scope>
+        <sys_scope_delete display_value="">4f84f83a9ab9479e9d78128ac347fec4</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_22edf9c178d10610730392ec3a38cf6c</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_22edf9c178d10610730392ec3a38cf6c">3290d24d47150610d0077f52d16d43f8</sys_update_version>
+        <sys_updated_by>agb</sys_updated_by>
+        <sys_updated_on>2024-03-30 20:51:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
